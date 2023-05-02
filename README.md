@@ -9,6 +9,7 @@ I am making this lazy code for creating multiple files with the name Assignment$
 
 ```
 <?php
+
 for ($i=1; $i<=8; $i++) {
     $file = fopen("Assignment$i.php", "w");
     $txt = "<?php\n\n";
